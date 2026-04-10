@@ -17,3 +17,5 @@ print((group_a&group_b)-group_c)
 set1=((group_a-group_b)-group_c)|(group_c-(group_a-group_b))|((group_b-(group_a-group_c)))
 
 print(set1)
+
+

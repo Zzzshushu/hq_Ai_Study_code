@@ -13,5 +13,7 @@ group_b=set(['banana','grape','watermelon'])
 group_c=set(['orange','peach'])
 
 print(group_a)
-print(group_a|group_b&group_c)
+print((group_a&group_b)-group_c)
+set1=((group_a-group_b)-group_c)|(group_c-(group_a-group_b))|((group_b-(group_a-group_c)))
 
+print(set1)

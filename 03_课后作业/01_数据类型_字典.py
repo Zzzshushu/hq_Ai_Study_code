@@ -34,5 +34,3 @@ for key,value in origin_dict.items():
     elif value in inverted_dict:
         inverted_dict[value].append(key)
 print(inverted_dict)
-
-

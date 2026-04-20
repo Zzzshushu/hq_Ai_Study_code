@@ -19,6 +19,7 @@
 # print(judgment(-2))
 
 s=0
+#定义函数S，计算面积
 def S(a,h):
     s=a*h/2
     return s

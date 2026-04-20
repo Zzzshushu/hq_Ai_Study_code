@@ -13,8 +13,9 @@
 
 """
 
+#定义Dog类
 # class Dog:
-#     def say(self):
+#     def say():
 #         print("Hello")
 # dog = Dog()
 # dog.say()

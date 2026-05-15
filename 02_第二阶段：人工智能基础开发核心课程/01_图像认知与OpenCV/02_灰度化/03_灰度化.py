@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image_np = cv2.imread('./flower.png')
+image_np = cv2.imread('flower.png')
 
 cv_gray = cv2.cvtColor(image_np, cv2.COLOR_BGR2GRAY)
 
